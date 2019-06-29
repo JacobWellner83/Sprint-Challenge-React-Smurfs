@@ -1,5 +1,7 @@
 # Sprint Challenge: Single Page Applications - Smurfs
 
+
+
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Single Page Applications, React Router I - II & HTTP/AJAX I - II. In your challenge for this Sprint, you will demonstrate proficiency by creating a Single Page Application that performs CRUD operations on a locally hosted API, Smurfs.
 
 ## Instructions
@@ -26,13 +28,29 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 ## Self-Study/Essay Questions
 
+
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the differences between `client-side routing` and `server-side routing`.
-- [ ] What does HTTP stand for?
-- [ ] What does CRUD stand for?
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-- [ ] Mention three tools we can use to make AJAX requests.
+
+- [x] Explain the differences between `client-side routing` and `server-side routing`.
+
+A. During server-side routing resources are requested by the client from a server. The server returns the rquested resource and then refreshes the page so that the new resources are displayed. During client-side routing the internal state is queried and then returned resulting in a smaller reuest size.
+
+- [x] What does HTTP stand for?
+
+A. Hypertext Transfer Protocol
+
+- [x] What does CRUD stand for?
+
+A. Create, Read, Update, Delete
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+A. POST(Create), GET(Read), UPDATE(Put), DELETE(Delete)
+
+- [x] Mention three tools we can use to make AJAX requests.
+
+A. XHR, axios and browser-native fetch.
 
 
 ## Project Set Up
